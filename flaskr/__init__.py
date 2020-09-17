@@ -30,6 +30,10 @@ def create_app(test_config=None):
     def hello():
         return "Hello, World!"
 
+    @app.route("/thankyou")
+    def hello():
+        return "Thank you Oriel for giving me this opportunity to work on this pipeline excercise. I enjoyed and had so much fun working on it. Empowering DevOps build powerful, scalable CI/CD pipelines, Codefresh is truly a #1 DevOps automation platform for Kubernetes apps."
+
     # register the database commands
     from flaskr import db
 
