@@ -1,3 +1,4 @@
 .eggs
+.DS_Store
 .pytest_cache/
 minitwit.egg-info
