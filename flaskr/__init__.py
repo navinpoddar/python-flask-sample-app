@@ -32,7 +32,7 @@ def create_app(test_config=None):
 
     @app.route("/mirantis")
     def mirantis():
-        return "Introducing Docker Enterprise Container Cloud. Ship Code Faster.."
+        return "Introducing Docker Enterprise Container Cloud. Ship Code Faster..."
 
     # register the database commands
     from flaskr import db
